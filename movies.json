@@ -346,5 +346,23 @@
     "rating": "⭐⭐⭐⭐",
     "favorite": false,
     "review": "Vibrant underwater kingdoms, massive battles, and ocean lore."
+  },
+  {
+    "title": "The Angry Birds Movie",
+    "type": "movie",
+    "year": 2016,
+    "genre": "Animation / Comedy",
+    "rating": "⭐⭐⭐½",
+    "favorite": false,
+    "review": "Fun animated adaptation detailing why the flock became so furious."
+  },
+  {
+    "title": "The Angry Birds Movie 2",
+    "type": "movie",
+    "year": 2019,
+    "genre": "Animation / Comedy",
+    "rating": "⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "An inventive, hilarious truce where birds and pigs join forces."
   }
 ]
