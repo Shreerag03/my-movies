@@ -20,7 +20,7 @@
       <div id="all-time-favorites" class="card-grid"></div>
     </section>
 
-    <!-- 2. All Movies Watched -->
+    <!-- 2. All Movies Watched (Sorted Alphabetically A-Z) -->
     <section>
       <h2>🎞️ All Movies Watched</h2>
       <div id="all-movies" class="card-grid"></div>
@@ -39,39 +39,47 @@
   </footer>
 
   <script>
+    // Helper function to build each card element
+    function createCard(item) {
+      const card = document.createElement('div');
+      card.className = 'movie-card';
+
+      const infoLine = item.seasons 
+        ? `<p><strong>Seasons:</strong> ${item.seasons} (${item.year})</p>`
+        : `<p><strong>Year:</strong> ${item.year}</p>`;
+
+      card.innerHTML = `
+        <div class="card-icon">${item.type === 'series' ? '📺' : '🎬'}</div>
+        <h3>${item.title}</h3>
+        ${infoLine}
+        <p><strong>Rating:</strong> ${item.rating}</p>
+        <span class="genre-badge">${item.genre}</span>
+        ${item.review ? `<p class="review">"${item.review}"</p>` : ''}
+      `;
+      return card;
+    }
+
     fetch('movies.json')
       .then(response => response.json())
       .then(items => {
-        items.forEach(item => {
-          const card = document.createElement('div');
-          card.className = 'movie-card';
+        // 1. Render Favorites (preserves your custom list order)
+        const favGrid = document.getElementById('all-time-favorites');
+        items.filter(item => item.favorite).forEach(item => {
+          favGrid.appendChild(createCard(item));
+        });
 
-          // Show seasons for web series, or year for movies
-          const infoLine = item.seasons 
-            ? `<p><strong>Seasons:</strong> ${item.seasons} (${item.year})</p>`
-            : `<p><strong>Year:</strong> ${item.year}</p>`;
+        // 2. Render All Movies Watched (Automatically sorted A to Z by title)
+        const moviesGrid = document.getElementById('all-movies');
+        const moviesList = items.filter(item => item.type === 'movie');
+        moviesList.sort((a, b) => a.title.localeCompare(b.title));
+        moviesList.forEach(movie => {
+          moviesGrid.appendChild(createCard(movie));
+        });
 
-          card.innerHTML = `
-            <div class="card-icon">${item.type === 'series' ? '📺' : '🎬'}</div>
-            <h3>${item.title}</h3>
-            ${infoLine}
-            <p><strong>Rating:</strong> ${item.rating}</p>
-            <span class="genre-badge">${item.genre}</span>
-            ${item.review ? `<p class="review">"${item.review}"</p>` : ''}
-          `;
-
-          // If marked as favorite, it appears in All-Time Favorites
-          if (item.favorite) {
-            const favGrid = document.getElementById('all-time-favorites');
-            favGrid.appendChild(card.cloneNode(true));
-          }
-
-          // Route to Web Series or All Movies Watched
-          if (item.type === 'series') {
-            document.getElementById('web-series').appendChild(card);
-          } else {
-            document.getElementById('all-movies').appendChild(card);
-          }
+        // 3. Render Web Series Watched
+        const seriesGrid = document.getElementById('web-series');
+        items.filter(item => item.type === 'series').forEach(series => {
+          seriesGrid.appendChild(createCard(series));
         });
       })
       .catch(err => console.error("Error loading watchlist data:", err));
