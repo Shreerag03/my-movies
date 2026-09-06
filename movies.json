@@ -1,0 +1,188 @@
+[
+  {
+    "title": "The Incredible Hulk",
+    "type": "movie",
+    "year": 2008,
+    "genre": "Action / Sci-Fi",
+    "rating": "⭐⭐⭐½",
+    "favorite": false,
+    "review": "Bruce Banner's intense escape and raw monstrous power."
+  },
+  {
+    "title": "Iron Man",
+    "type": "movie",
+    "year": 2008,
+    "genre": "Action / Sci-Fi",
+    "rating": "⭐⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "The film that kicked off the entire MCU legacy."
+  },
+  {
+    "title": "Iron Man 2",
+    "type": "movie",
+    "year": 2010,
+    "genre": "Action / Sci-Fi",
+    "rating": "⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "Expanding Tony Stark's world with War Machine and Black Widow."
+  },
+  {
+    "title": "Captain America: The First Avenger",
+    "type": "movie",
+    "year": 2011,
+    "genre": "Action / Adventure",
+    "rating": "⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "Steve Rogers' origins and the battle against Red Skull."
+  },
+  {
+    "title": "The Avengers",
+    "type": "movie",
+    "year": 2012,
+    "genre": "Action / Sci-Fi",
+    "rating": "⭐⭐⭐⭐⭐",
+    "favorite": true,
+    "review": "Earth's mightiest heroes assemble for the iconic battle of New York."
+  },
+  {
+    "title": "Iron Man 3",
+    "type": "movie",
+    "year": 2013,
+    "genre": "Action / Sci-Fi",
+    "rating": "⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "A deep dive into Tony's PTSD and suit ingenuity."
+  },
+  {
+    "title": "Thor: The Dark World",
+    "type": "movie",
+    "year": 2013,
+    "genre": "Action / Fantasy",
+    "rating": "⭐⭐⭐",
+    "favorite": false,
+    "review": "Thor and Loki team up against the Dark Elves."
+  },
+  {
+    "title": "Captain America: The Winter Soldier",
+    "type": "movie",
+    "year": 2014,
+    "genre": "Action / Thriller",
+    "rating": "⭐⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "A grounded political thriller with top-tier hand-to-hand combat."
+  },
+  {
+    "title": "Avengers: Age of Ultron",
+    "type": "movie",
+    "year": 2015,
+    "genre": "Action / Sci-Fi",
+    "rating": "⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "The team faces their own creation turned rogue."
+  },
+  {
+    "title": "Captain America: Civil War",
+    "type": "movie",
+    "year": 2016,
+    "genre": "Action / Sci-Fi",
+    "rating": "⭐⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "Ideological rift dividing Earth's mightiest protectors."
+  },
+  {
+    "title": "Thor: Ragnarok",
+    "type": "movie",
+    "year": 2017,
+    "genre": "Action / Comedy",
+    "rating": "⭐⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "Vibrant, hilarious, and completely reinvented Thor."
+  },
+  {
+    "title": "Avengers: Infinity War",
+    "type": "movie",
+    "year": 2018,
+    "genre": "Action / Sci-Fi",
+    "rating": "⭐⭐⭐⭐⭐",
+    "favorite": true,
+    "review": "Thanos' devastating pursuit of balance across the cosmos."
+  },
+  {
+    "title": "Avengers: Endgame",
+    "type": "movie",
+    "year": 2019,
+    "genre": "Action / Sci-Fi",
+    "rating": "⭐⭐⭐⭐⭐",
+    "favorite": true,
+    "review": "The monumental conclusion to an 11-year cinematic journey."
+  },
+  {
+    "title": "Thor: Love and Thunder",
+    "type": "movie",
+    "year": 2022,
+    "genre": "Action / Fantasy",
+    "rating": "⭐⭐⭐½",
+    "favorite": false,
+    "review": "Thor teams up with Mighty Thor to stop Gorr the God Butcher."
+  },
+  {
+    "title": "Breaking Bad",
+    "type": "series",
+    "seasons": "5 Seasons",
+    "year": "2008 - 2013",
+    "genre": "Crime / Drama",
+    "rating": "⭐⭐⭐⭐⭐",
+    "favorite": true,
+    "review": "Peak television drama and character transformation."
+  },
+  {
+    "title": "Game of Thrones",
+    "type": "series",
+    "seasons": "8 Seasons",
+    "year": "2011 - 2019",
+    "genre": "Fantasy / Drama",
+    "rating": "⭐⭐⭐⭐⭐",
+    "favorite": true,
+    "review": "Epic scale political maneuvering and dynastic conflict in Westeros."
+  },
+  {
+    "title": "Better Call Saul",
+    "type": "series",
+    "seasons": "6 Seasons",
+    "year": "2015 - 2022",
+    "genre": "Crime / Legal Drama",
+    "rating": "⭐⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "Masterclass storytelling on the evolution of Jimmy McGill."
+  },
+  {
+    "title": "Stranger Things",
+    "type": "series",
+    "seasons": "4 Seasons",
+    "year": "2016 - Present",
+    "genre": "Sci-Fi / Horror",
+    "rating": "⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "Nostalgic 80s adventures tackling the Upside Down."
+  },
+  {
+    "title": "Moon Knight",
+    "type": "series",
+    "seasons": "1 Season",
+    "year": "2022",
+    "genre": "Action / Psychological Thriller",
+    "rating": "⭐⭐⭐⭐½",
+    "favorite": true,
+    "review": "Oscar Isaac shines navigating Egyptian mythology and fractured identities."
+  },
+  {
+    "title": "Loki",
+    "type": "series",
+    "seasons": "2 Seasons",
+    "year": "2021 - 2023",
+    "genre": "Sci-Fi / Fantasy",
+    "rating": "⭐⭐⭐⭐⭐",
+    "favorite": true,
+    "review": "Glorious purpose, timeline branch control, and exceptional character redemption."
+  }
+]

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎬 My Watchlist & Vault</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>🎬 My Watchlist & Vault</h1>
+    <p>A personal archive of every movie and web series I've loved and experienced.</p>
+  </header>
+
+  <main class="container">
+    <!-- 1. All-Time Favorites -->
+    <section>
+      <h2>⭐ All-Time Favorites</h2>
+      <div id="all-time-favorites" class="card-grid"></div>
+    </section>
+
+    <!-- 2. All Movies Watched -->
+    <section>
+      <h2>🎞️ All Movies Watched</h2>
+      <div id="all-movies" class="card-grid"></div>
+    </section>
+
+    <!-- 3. Web Series Watched -->
+    <section>
+      <h2>📺 Web Series Watched</h2>
+      <div id="web-series" class="card-grid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with 🍿 & Cinema</p>
+    <p>© 2026 My Watchlist</p>
+  </footer>
+
+  <script>
+    fetch('movies.json')
+      .then(response => response.json())
+      .then(items => {
+        items.forEach(item => {
+          const card = document.createElement('div');
+          card.className = 'movie-card';
+
+          // Show seasons for web series, or year for movies
+          const infoLine = item.seasons 
+            ? `<p><strong>Seasons:</strong> ${item.seasons} (${item.year})</p>`
+            : `<p><strong>Year:</strong> ${item.year}</p>`;
+
+          card.innerHTML = `
+            <div class="card-icon">${item.type === 'series' ? '📺' : '🎬'}</div>
+            <h3>${item.title}</h3>
+            ${infoLine}
+            <p><strong>Rating:</strong> ${item.rating}</p>
+            <span class="genre-badge">${item.genre}</span>
+            ${item.review ? `<p class="review">"${item.review}"</p>` : ''}
+          `;
+
+          // If marked as favorite, it appears in All-Time Favorites
+          if (item.favorite) {
+            const favGrid = document.getElementById('all-time-favorites');
+            favGrid.appendChild(card.cloneNode(true));
+          }
+
+          // Route to Web Series or All Movies Watched
+          if (item.type === 'series') {
+            document.getElementById('web-series').appendChild(card);
+          } else {
+            document.getElementById('all-movies').appendChild(card);
+          }
+        });
+      })
+      .catch(err => console.error("Error loading watchlist data:", err));
+  </script>
+</body>
+</html>
