@@ -265,5 +265,86 @@
     "rating": "⭐⭐⭐⭐⭐",
     "favorite": true,
     "review": "A fresh, street-level chapter navigating life from scratch."
+  },
+  {
+    "title": "Ant-Man",
+    "type": "movie",
+    "year": 2015,
+    "genre": "Action / Sci-Fi",
+    "rating": "⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "A fun, inventive heist film introducing Scott Lang's shrinking tech."
+  },
+  {
+    "title": "Ant-Man and the Wasp",
+    "type": "movie",
+    "year": 2018,
+    "genre": "Action / Sci-Fi",
+    "rating": "⭐⭐⭐½",
+    "favorite": false,
+    "review": "A fast-paced team-up delving deeper into the Quantum Realm."
+  },
+  {
+    "title": "Ant-Man and the Wasp: Quantumania",
+    "type": "movie",
+    "year": 2023,
+    "genre": "Action / Sci-Fi",
+    "rating": "⭐⭐⭐",
+    "favorite": false,
+    "review": "Kang the Conqueror rules a visually striking microscopic world."
+  },
+  {
+    "title": "American Psycho",
+    "type": "movie",
+    "year": 2000,
+    "genre": "Crime / Drama",
+    "rating": "⭐⭐⭐⭐½",
+    "favorite": false,
+    "review": "Christian Bale's sharp, chilling portrayal of corporate madness."
+  },
+  {
+    "title": "American Psycho II: All American Girl",
+    "type": "movie",
+    "year": 2002,
+    "genre": "Crime / Comedy",
+    "rating": "⭐⭐",
+    "favorite": false,
+    "review": "A stand-alone dark slasher sequel centered on college rivalries."
+  },
+  {
+    "title": "Avatar: The Way of Water",
+    "type": "movie",
+    "year": 2022,
+    "genre": "Sci-Fi / Adventure",
+    "rating": "⭐⭐⭐⭐½",
+    "favorite": false,
+    "review": "Breathtaking aquatic visuals and groundbreaking CGI tech."
+  },
+  {
+    "title": "Annabelle",
+    "type": "movie",
+    "year": 2014,
+    "genre": "Horror / Mystery",
+    "rating": "⭐⭐⭐",
+    "favorite": false,
+    "review": "Creepy doll lore expanding The Conjuring horror universe."
+  },
+  {
+    "title": "Aladdin",
+    "type": "movie",
+    "year": 2019,
+    "genre": "Adventure / Family",
+    "rating": "⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "A colorful live-action musical adventure with Will Smith's Genie."
+  },
+  {
+    "title": "Aquaman",
+    "type": "movie",
+    "year": 2018,
+    "genre": "Action / Fantasy",
+    "rating": "⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "Vibrant underwater kingdoms, massive battles, and ocean lore."
   }
 ]
