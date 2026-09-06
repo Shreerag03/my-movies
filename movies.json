@@ -184,5 +184,86 @@
     "rating": "⭐⭐⭐⭐⭐",
     "favorite": true,
     "review": "Glorious purpose, timeline branch control, and exceptional character redemption."
+  },
+  {
+    "title": "Spider-Man",
+    "type": "movie",
+    "year": 2002,
+    "genre": "Action / Sci-Fi",
+    "rating": "⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "Tobey Maguire's definitive origin story and iconic Green Goblin face-off."
+  },
+  {
+    "title": "Spider-Man 2",
+    "type": "movie",
+    "year": 2004,
+    "genre": "Action / Sci-Fi",
+    "rating": "⭐⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "Doc Ock and the iconic train fight sequence."
+  },
+  {
+    "title": "Spider-Man 3",
+    "type": "movie",
+    "year": 2007,
+    "genre": "Action / Sci-Fi",
+    "rating": "⭐⭐⭐⭐",
+    "favorite": true,
+    "review": "The black suit symbiote, Sandman, and unforgettable chaotic energy."
+  },
+  {
+    "title": "The Amazing Spider-Man",
+    "type": "movie",
+    "year": 2012,
+    "genre": "Action / Sci-Fi",
+    "rating": "⭐⭐⭐⭐½",
+    "favorite": true,
+    "review": "Andrew Garfield brings unmatched charisma and web-swinging physics."
+  },
+  {
+    "title": "The Amazing Spider-Man 2",
+    "type": "movie",
+    "year": 2014,
+    "genre": "Action / Sci-Fi",
+    "rating": "⭐⭐⭐⭐½",
+    "favorite": true,
+    "review": "Electrifying visuals, the best suit design, and an emotional climax."
+  },
+  {
+    "title": "Spider-Man: Homecoming",
+    "type": "movie",
+    "year": 2017,
+    "genre": "Action / Comedy",
+    "rating": "⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "Tom Holland's high school dynamic and Michael Keaton's Vulture."
+  },
+  {
+    "title": "Spider-Man: Far From Home",
+    "type": "movie",
+    "year": 2019,
+    "genre": "Action / Adventure",
+    "rating": "⭐⭐⭐⭐½",
+    "favorite": true,
+    "review": "Mysterio's illusion sequences and European road-trip stakes."
+  },
+  {
+    "title": "Spider-Man: No Way Home",
+    "type": "movie",
+    "year": 2021,
+    "genre": "Action / Sci-Fi",
+    "rating": "⭐⭐⭐⭐⭐",
+    "favorite": true,
+    "review": "A historic multiversal tribute uniting three generations of heroes."
+  },
+  {
+    "title": "Spider-Man: Brand New Day",
+    "type": "movie",
+    "year": 2026,
+    "genre": "Action / Sci-Fi",
+    "rating": "⭐⭐⭐⭐⭐",
+    "favorite": true,
+    "review": "A fresh, street-level chapter navigating life from scratch."
   }
 ]
