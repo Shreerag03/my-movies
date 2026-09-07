@@ -20,17 +20,14 @@
     </div>
     
     <div class="filter-sort-group">
-      <!-- Language Dropdown -->
       <select id="language-filter">
         <option value="all">🌐 All Languages</option>
       </select>
 
-      <!-- Genre Dropdown -->
       <select id="genre-filter">
         <option value="all">🎭 All Genres</option>
       </select>
 
-      <!-- Sort Dropdown -->
       <select id="sort-select">
         <option value="az">🔤 Title (A to Z)</option>
         <option value="za">🔤 Title (Z to A)</option>
@@ -66,12 +63,39 @@
   </footer>
 
   <script>
+    // Your active OMDb API Key
+    const OMDB_API_KEY = "9402d628";
+
     let allData = [];
 
     function extractYear(item) {
       if (typeof item.year === 'number') return item.year;
       const match = String(item.year).match(/\d{4}/);
       return match ? parseInt(match[0], 10) : 0;
+    }
+
+    // Automatically load posters and cache them in browser memory
+    async function fetchPoster(title, year) {
+      const cacheKey = `poster_${title}_${year}`;
+      const cached = localStorage.getItem(cacheKey);
+      if (cached) return cached;
+
+      try {
+        const cleanYear = extractYear({ year });
+        let url = `https://www.omdbapi.com/?t=${encodeURIComponent(title)}&apikey=${OMDB_API_KEY}`;
+        if (cleanYear > 0) url += `&y=${cleanYear}`;
+
+        const res = await fetch(url);
+        const data = await res.json();
+
+        if (data.Response === "True" && data.Poster && data.Poster !== "N/A") {
+          localStorage.setItem(cacheKey, data.Poster);
+          return data.Poster;
+        }
+      } catch (err) {
+        console.warn(`Could not load poster for ${title}:`, err);
+      }
+      return null;
     }
 
     function createCard(item) {
@@ -84,17 +108,35 @@
 
       const languageBadge = `<span class="lang-badge">${item.language || 'English'}</span>`;
 
+      // Poster banner at top, details below
       card.innerHTML = `
-        <div class="card-top">
-          <span class="card-icon">${item.type === 'series' ? '📺' : '🎬'}</span>
+        <div class="card-banner">
+          <div class="banner-placeholder">${item.type === 'series' ? '📺' : '🎬'}</div>
+          <img class="poster-img" alt="${item.title}" loading="lazy" style="display: none;" />
           ${languageBadge}
         </div>
-        <h3>${item.title}</h3>
-        ${infoLine}
-        <p><strong>Rating:</strong> ${item.rating}</p>
-        <span class="genre-badge">${item.genre}</span>
-        ${item.review ? `<p class="review">"${item.review}"</p>` : ''}
+        <div class="card-body">
+          <h3>${item.title}</h3>
+          ${infoLine}
+          <p><strong>Rating:</strong> ${item.rating}</p>
+          <span class="genre-badge">${item.genre}</span>
+          ${item.review ? `<p class="review">"${item.review}"</p>` : ''}
+        </div>
       `;
+
+      // Fetch and display poster smoothly
+      fetchPoster(item.title, item.year).then(posterUrl => {
+        if (posterUrl) {
+          const img = card.querySelector('.poster-img');
+          const placeholder = card.querySelector('.banner-placeholder');
+          img.src = posterUrl;
+          img.onload = () => {
+            img.style.display = 'block';
+            if (placeholder) placeholder.style.display = 'none';
+          };
+        }
+      });
+
       return card;
     }
 
@@ -105,16 +147,12 @@
       const languages = new Set();
 
       items.forEach(item => {
-        // Collect languages (defaults to English if not provided)
         languages.add(item.language || 'English');
-
-        // Collect genres
         if (item.genre) {
           item.genre.split('/').forEach(g => genres.add(g.trim()));
         }
       });
 
-      // Populate Languages
       Array.from(languages).sort().forEach(lang => {
         const opt = document.createElement('option');
         opt.value = lang.toLowerCase();
@@ -122,7 +160,6 @@
         langSelect.appendChild(opt);
       });
 
-      // Populate Genres
       Array.from(genres).sort().forEach(genre => {
         const opt = document.createElement('option');
         opt.value = genre.toLowerCase();
@@ -184,7 +221,6 @@
     fetch('movies.json')
       .then(res => res.json())
       .then(data => {
-        // Automatic deduplication check
         const seen = new Set();
         allData = data.filter(item => {
           const key = `${item.title.toLowerCase().trim()}-${item.year}`;
