@@ -1175,5 +1175,254 @@
     "rating": "⭐⭐⭐",
     "language": "English",
     "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "The Fantastic Four: First Steps",
+    "year": 2025,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "Kabhi Khushi Kabhie Gham...",
+    "year": 2001,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "Hindi",
+    "genre": "Drama / Romance"
+  },
+  {
+    "title": "Chhichhore",
+    "year": 2019,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "Hindi",
+    "genre": "Comedy / Drama"
+  },
+  {
+    "title": "Chennai Express",
+    "year": 2013,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "Hindi",
+    "genre": "Action / Comedy"
+  },
+  {
+    "title": "Googly",
+    "year": 2013,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "Kannada",
+    "genre": "Romance / Comedy"
+  },
+  {
+    "title": "K.G.F: Chapter 1",
+    "year": 2018,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "Kannada",
+    "genre": "Action / Drama"
+  },
+  {
+    "title": "K.G.F: Chapter 2",
+    "year": 2022,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "Kannada",
+    "genre": "Action / Drama"
+  },
+  {
+    "title": "Mahabharat",
+    "year": 2013,
+    "seasons": "267 Episodes",
+    "type": "series",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "Hindi",
+    "genre": "Mythological / Drama"
+  },
+  {
+    "title": "Kalki 2898 AD",
+    "year": 2024,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "Telugu",
+    "genre": "Sci-Fi / Action"
+  },
+  {
+    "title": "Kantara",
+    "year": 2022,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "Kannada",
+    "genre": "Action / Thriller"
+  },
+  {
+    "title": "Kantara: Chapter 1",
+    "year": 2025,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "Kannada",
+    "genre": "Action / Thriller"
+  },
+  {
+    "title": "Kirik Party",
+    "year": 2016,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "Kannada",
+    "genre": "Comedy / Drama"
+  },
+  {
+    "title": "Baahubali: The Beginning",
+    "year": 2015,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "Telugu",
+    "genre": "Action / Drama"
+  },
+  {
+    "title": "Baahubali 2: The Conclusion",
+    "year": 2017,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "Telugu",
+    "genre": "Action / Drama"
+  },
+  {
+    "title": "Eega",
+    "year": 2012,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "Telugu",
+    "genre": "Action / Fantasy"
+  },
+  {
+    "title": "Knock Knock",
+    "year": 2015,
+    "type": "movie",
+    "rating": "⭐⭐⭐",
+    "language": "English",
+    "genre": "Thriller"
+  },
+  {
+    "title": "Koi... Mil Gaya",
+    "year": 2003,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "Hindi",
+    "genre": "Sci-Fi / Drama"
+  },
+  {
+    "title": "Krrish",
+    "year": 2006,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "Hindi",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "Krrish 3",
+    "year": 2013,
+    "type": "movie",
+    "rating": "⭐⭐⭐",
+    "language": "Hindi",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "Kung Fu Panda",
+    "year": 2008,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Action"
+  },
+  {
+    "title": "Kung Fu Panda 2",
+    "year": 2011,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Action"
+  },
+  {
+    "title": "Kung Fu Panda 3",
+    "year": 2016,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Action"
+  },
+  {
+    "title": "Kung Fu Panda 4",
+    "year": 2024,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Action"
+  },
+  {
+    "title": "Kong: Skull Island",
+    "year": 2017,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "Godzilla vs. Kong",
+    "year": 2021,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "Godzilla x Kong: The New Empire",
+    "year": 2024,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "I Want to Eat Your Pancreas",
+    "year": 2018,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "Japanese",
+    "genre": "Animation / Drama"
+  },
+  {
+    "title": "Josee, the Tiger and the Fish",
+    "year": 2020,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "Japanese",
+    "genre": "Animation / Romance"
+  },
+  {
+    "title": "The Garden of Words",
+    "year": 2013,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "Japanese",
+    "genre": "Animation / Drama"
+  },
+  {
+    "title": "lokah chapter 1- Chandra",
+    "year": 2019,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "Malayalam",
+    "genre": "Thriller / Drama"
+  },
+  {
+    "title": "777 Charlie",
+    "year": 2022,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "Kannada",
+    "genre": "Adventure / Drama"
   }
 ]
