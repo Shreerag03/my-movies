@@ -20,10 +20,17 @@
     </div>
     
     <div class="filter-sort-group">
+      <!-- Language Dropdown -->
+      <select id="language-filter">
+        <option value="all">🌐 All Languages</option>
+      </select>
+
+      <!-- Genre Dropdown -->
       <select id="genre-filter">
         <option value="all">🎭 All Genres</option>
       </select>
 
+      <!-- Sort Dropdown -->
       <select id="sort-select">
         <option value="az">🔤 Title (A to Z)</option>
         <option value="za">🔤 Title (Z to A)</option>
@@ -75,8 +82,13 @@
         ? `<p><strong>Seasons:</strong> ${item.seasons} (${item.year})</p>`
         : `<p><strong>Year:</strong> ${item.year}</p>`;
 
+      const languageBadge = `<span class="lang-badge">${item.language || 'English'}</span>`;
+
       card.innerHTML = `
-        <div class="card-icon">${item.type === 'series' ? '📺' : '🎬'}</div>
+        <div class="card-top">
+          <span class="card-icon">${item.type === 'series' ? '📺' : '🎬'}</span>
+          ${languageBadge}
+        </div>
         <h3>${item.title}</h3>
         ${infoLine}
         <p><strong>Rating:</strong> ${item.rating}</p>
@@ -86,16 +98,31 @@
       return card;
     }
 
-    function populateGenreDropdown(items) {
+    function populateDropdowns(items) {
       const genreSelect = document.getElementById('genre-filter');
+      const langSelect = document.getElementById('language-filter');
       const genres = new Set();
+      const languages = new Set();
 
       items.forEach(item => {
+        // Collect languages (defaults to English if not provided)
+        languages.add(item.language || 'English');
+
+        // Collect genres
         if (item.genre) {
           item.genre.split('/').forEach(g => genres.add(g.trim()));
         }
       });
 
+      // Populate Languages
+      Array.from(languages).sort().forEach(lang => {
+        const opt = document.createElement('option');
+        opt.value = lang.toLowerCase();
+        opt.textContent = lang;
+        langSelect.appendChild(opt);
+      });
+
+      // Populate Genres
       Array.from(genres).sort().forEach(genre => {
         const opt = document.createElement('option');
         opt.value = genre.toLowerCase();
@@ -117,18 +144,24 @@
     function applyFilters() {
       const searchQuery = document.getElementById('search-input').value.toLowerCase().trim();
       const selectedGenre = document.getElementById('genre-filter').value;
+      const selectedLang = document.getElementById('language-filter').value;
       const sortMode = document.getElementById('sort-select').value;
 
       let filtered = allData.filter(item => {
+        const itemLang = (item.language || 'English').toLowerCase();
+        
         const matchesSearch = 
           item.title.toLowerCase().includes(searchQuery) ||
           (item.genre && item.genre.toLowerCase().includes(searchQuery)) ||
+          itemLang.includes(searchQuery) ||
           (item.review && item.review.toLowerCase().includes(searchQuery));
 
         const matchesGenre = (selectedGenre === 'all') || 
           (item.genre && item.genre.toLowerCase().includes(selectedGenre));
 
-        return matchesSearch && matchesGenre;
+        const matchesLang = (selectedLang === 'all') || (itemLang === selectedLang);
+
+        return matchesSearch && matchesGenre && matchesLang;
       });
 
       filtered.sort((a, b) => {
@@ -139,7 +172,6 @@
         return 0;
       });
 
-      // Split into categories
       const favorites = filtered.filter(item => item.favorite);
       const movies = filtered.filter(item => item.type === 'movie');
       const series = filtered.filter(item => item.type === 'series');
@@ -152,21 +184,20 @@
     fetch('movies.json')
       .then(res => res.json())
       .then(data => {
-        // Filter out duplicate movies/shows automatically
+        // Automatic deduplication check
         const seen = new Set();
         allData = data.filter(item => {
           const key = `${item.title.toLowerCase().trim()}-${item.year}`;
-          if (seen.has(key)) {
-            return false; // Skips duplicate
-          }
+          if (seen.has(key)) return false;
           seen.add(key);
           return true;
         });
 
-        populateGenreDropdown(allData);
+        populateDropdowns(allData);
         applyFilters();
 
         document.getElementById('search-input').addEventListener('input', applyFilters);
+        document.getElementById('language-filter').addEventListener('change', applyFilters);
         document.getElementById('genre-filter').addEventListener('change', applyFilters);
         document.getElementById('sort-select').addEventListener('change', applyFilters);
       })
