@@ -892,5 +892,288 @@
     "rating": "⭐⭐⭐½",
     "favorite": false,
     "review": "Ryan Gosling and Chris Evans clash in a fast-paced global cat-and-mouse hunt."
+  },
+  {
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "year": 2001,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Fantasy / Adventure"
+  },
+  {
+    "title": "Harry Potter and the Chamber of Secrets",
+    "year": 2002,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Fantasy / Adventure"
+  },
+  {
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "year": 2004,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Fantasy / Adventure"
+  },
+  {
+    "title": "Harry Potter and the Goblet of Fire",
+    "year": 2005,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Fantasy / Adventure"
+  },
+  {
+    "title": "Harry Potter and the Order of the Phoenix",
+    "year": 2007,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Fantasy / Adventure"
+  },
+  {
+    "title": "Harry Potter and the Half-Blood Prince",
+    "year": 2009,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Fantasy / Adventure"
+  },
+  {
+    "title": "Harry Potter and the Deathly Hallows: Part 1",
+    "year": 2010,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Fantasy / Adventure"
+  },
+  {
+    "title": "Harry Potter and the Deathly Hallows: Part 2",
+    "year": 2011,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Fantasy / Adventure"
+  },
+  {
+    "title": "How to Train Your Dragon",
+    "year": 2010,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Adventure"
+  },
+  {
+    "title": "How to Train Your Dragon 2",
+    "year": 2014,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Adventure"
+  },
+  {
+    "title": "How to Train Your Dragon: The Hidden World",
+    "year": 2019,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Adventure"
+  },
+  {
+    "title": "The Hangover",
+    "year": 2009,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Comedy"
+  },
+  {
+    "title": "The Hangover Part II",
+    "year": 2011,
+    "type": "movie",
+    "rating": "⭐⭐⭐",
+    "language": "English",
+    "genre": "Comedy"
+  },
+  {
+    "title": "Inception",
+    "year": 2010,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Sci-Fi / Thriller"
+  },
+  {
+    "title": "Incredibles 2",
+    "year": 2018,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Action"
+  },
+  {
+    "title": "Interstellar",
+    "year": 2014,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Sci-Fi / Drama"
+  },
+  {
+    "title": "Spider-Man: Into the Spider-Verse",
+    "year": 2018,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Action",
+    "favorite": true
+  },
+  {
+    "title": "Spider-Man: Across the Spider-Verse",
+    "year": 2023,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Action",
+    "favorite": true
+  },
+  {
+    "title": "Inside Out",
+    "year": 2015,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Family"
+  },
+  {
+    "title": "Inside Out 2",
+    "year": 2024,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Family"
+  },
+  {
+    "title": "Jerry Maguire",
+    "year": 1996,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Drama / Romance"
+  },
+  {
+    "title": "Joker",
+    "year": 2019,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Crime / Drama"
+  },
+  {
+    "title": "John Wick",
+    "year": 2014,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Thriller"
+  },
+  {
+    "title": "John Wick: Chapter 2",
+    "year": 2017,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Thriller"
+  },
+  {
+    "title": "Jumanji: Welcome to the Jungle",
+    "year": 2017,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Comedy"
+  },
+  {
+    "title": "Jumanji: The Next Level",
+    "year": 2019,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Comedy"
+  },
+  {
+    "title": "The Jungle Book",
+    "year": 2016,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Adventure / Drama"
+  },
+  {
+    "title": "Jungle Cruise",
+    "year": 2021,
+    "type": "movie",
+    "rating": "⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Adventure"
+  },
+  {
+    "title": "Jurassic Park",
+    "year": 1993,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "Jurassic Park III",
+    "year": 2001,
+    "type": "movie",
+    "rating": "⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "Jurassic World Rebirth",
+    "year": 2025,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "Godzilla",
+    "year": 2014,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "Godzilla vs. Kong",
+    "year": 2021,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "Marvel's Jessica Jones",
+    "year": 2015,
+    "seasons": "3 Seasons",
+    "type": "series",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Crime"
+  },
+  {
+    "title": "Justice League",
+    "year": 2017,
+    "type": "movie",
+    "rating": "⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
   }
 ]
