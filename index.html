@@ -73,12 +73,15 @@
     }
 
     async function fetchPoster(title, year) {
-      const cacheKey = `poster_${title.toLowerCase().trim()}_${year}`;
+      const cleanTitle = title.toLowerCase().trim();
+      const cacheKey = `poster_${cleanTitle}_${year}`;
       const cached = localStorage.getItem(cacheKey);
       if (cached) return cached;
 
+      const cleanYear = extractYear({ year });
+
+      // 1. Primary: OMDb API
       try {
-        const cleanYear = extractYear({ year });
         let url = `https://www.omdbapi.com/?t=${encodeURIComponent(title)}&apikey=${OMDB_API_KEY}`;
         if (cleanYear > 0) url += `&y=${cleanYear}`;
 
@@ -86,14 +89,28 @@
         const data = await res.json();
 
         if (data.Response === "True" && data.Poster && data.Poster !== "N/A") {
-          // Ensure secure https link so browser doesn't block it
           const securePoster = data.Poster.replace(/^http:\/\//i, 'https://');
           localStorage.setItem(cacheKey, securePoster);
           return securePoster;
         }
       } catch (err) {
-        console.warn(`Could not load poster for ${title}:`, err);
+        console.warn(`OMDb fetch issue for ${title}:`, err);
       }
+
+      // 2. Fallback: TMDB
+      try {
+        const tmdbUrl = `https://api.themoviedb.org/3/search/multi?api_key=15d2ea6d0dc1d476efbca3eba2b9bbfb&query=${encodeURIComponent(title)}`;
+        const res = await fetch(tmdbUrl);
+        const data = await res.json();
+        if (data.results && data.results.length > 0 && data.results[0].poster_path) {
+          const poster = `https://image.tmdb.org/t/p/w500${data.results[0].poster_path}`;
+          localStorage.setItem(cacheKey, poster);
+          return poster;
+        }
+      } catch (fallbackErr) {
+        console.warn(`Fallback issue for ${title}:`, fallbackErr);
+      }
+
       return null;
     }
 
