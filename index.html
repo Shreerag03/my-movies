@@ -63,9 +63,7 @@
   </footer>
 
   <script>
-    // Your active OMDb API Key
     const OMDB_API_KEY = "9402d628";
-
     let allData = [];
 
     function extractYear(item) {
@@ -74,9 +72,8 @@
       return match ? parseInt(match[0], 10) : 0;
     }
 
-    // Automatically load posters and cache them in browser memory
     async function fetchPoster(title, year) {
-      const cacheKey = `poster_${title}_${year}`;
+      const cacheKey = `poster_${title.toLowerCase().trim()}_${year}`;
       const cached = localStorage.getItem(cacheKey);
       if (cached) return cached;
 
@@ -89,8 +86,10 @@
         const data = await res.json();
 
         if (data.Response === "True" && data.Poster && data.Poster !== "N/A") {
-          localStorage.setItem(cacheKey, data.Poster);
-          return data.Poster;
+          // Ensure secure https link so browser doesn't block it
+          const securePoster = data.Poster.replace(/^http:\/\//i, 'https://');
+          localStorage.setItem(cacheKey, securePoster);
+          return securePoster;
         }
       } catch (err) {
         console.warn(`Could not load poster for ${title}:`, err);
@@ -108,7 +107,6 @@
 
       const languageBadge = `<span class="lang-badge">${item.language || 'English'}</span>`;
 
-      // Poster banner at top, details below
       card.innerHTML = `
         <div class="card-banner">
           <div class="banner-placeholder">${item.type === 'series' ? '📺' : '🎬'}</div>
@@ -124,7 +122,6 @@
         </div>
       `;
 
-      // Fetch and display poster smoothly
       fetchPoster(item.title, item.year).then(posterUrl => {
         if (posterUrl) {
           const img = card.querySelector('.poster-img');

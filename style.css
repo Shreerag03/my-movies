@@ -35,7 +35,6 @@ header p {
   color: var(--text-muted);
 }
 
-/* Control Bar: Search, Genre, and Sort */
 .controls-container {
   max-width: 1000px;
   margin: 0 auto 2.5rem auto;
@@ -107,35 +106,81 @@ section h2 {
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 1.2rem;
+  gap: 1.5rem;
 }
 
+/* Movie Card Poster Banner Layout */
 .movie-card {
   background-color: var(--card-bg);
   border-radius: 12px;
-  padding: 1.2rem;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   border: 1px solid #334155;
-  transition: transform 0.2s ease, border-color 0.2s ease;
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
 .movie-card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-6px);
   border-color: var(--accent);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
 }
 
-.card-icon {
-  font-size: 1.8rem;
-  margin-bottom: 0.5rem;
+.card-banner {
+  position: relative;
+  width: 100%;
+  height: 280px;
+  background-color: #111827;
+  overflow: hidden;
 }
 
-.movie-card h3 {
-  font-size: 1.1rem;
-  margin-bottom: 0.4rem;
+.banner-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: 3rem;
+  background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
 }
 
-.movie-card p {
+.poster-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.lang-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(2, 132, 199, 0.9);
+  backdrop-filter: blur(4px);
+  color: #ffffff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.2rem 0.55rem;
+  border-radius: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+}
+
+.card-body {
+  padding: 1rem 1.1rem 1.2rem 1.1rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.card-body h3 {
+  font-size: 1.05rem;
+  margin-bottom: 0.35rem;
+  line-height: 1.3;
+}
+
+.card-body p {
   font-size: 0.85rem;
   color: var(--text-muted);
   margin-bottom: 0.25rem;
@@ -154,8 +199,9 @@ section h2 {
 
 .review {
   font-style: italic;
-  margin-top: 0.5rem;
+  margin-top: 0.4rem;
   color: #cbd5e1 !important;
+  font-size: 0.8rem !important;
 }
 
 .empty-msg {
@@ -169,21 +215,4 @@ footer {
   color: var(--text-muted);
   margin-top: 4rem;
   font-size: 0.85rem;
-}
-.card-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 0.5rem;
-}
-
-.lang-badge {
-  background-color: #0284c7;
-  color: #ffffff;
-  font-size: 0.7rem;
-  font-weight: 600;
-  padding: 0.15rem 0.5rem;
-  border-radius: 6px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
 }
