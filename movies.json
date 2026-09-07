@@ -675,5 +675,221 @@
     "rating": "⭐⭐⭐⭐⭐",
     "favorite": false,
     "review": "Robin Williams inspires nonconformity and a profound passion for poetry and life."
+  },
+  {
+    "title": "Elemental",
+    "type": "movie",
+    "year": 2023,
+    "genre": "Animation / Romance",
+    "rating": "⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "A colorful Pixar story exploring opposites attracting in Element City."
+  },
+  {
+    "title": "El Camino: A Breaking Bad Movie",
+    "type": "movie",
+    "year": 2019,
+    "genre": "Crime / Drama",
+    "rating": "⭐⭐⭐⭐½",
+    "favorite": false,
+    "review": "Jesse Pinkman's desperate escape and closure following Breaking Bad."
+  },
+  {
+    "title": "Eternals",
+    "type": "movie",
+    "year": 2021,
+    "genre": "Action / Fantasy",
+    "rating": "⭐⭐⭐½",
+    "favorite": false,
+    "review": "Centuries-spanning cosmic lore exploring immortal heroes protecting humanity."
+  },
+  {
+    "title": "Fight Club",
+    "type": "movie",
+    "year": 1999,
+    "genre": "Drama / Psychological Thriller",
+    "rating": "⭐⭐⭐⭐⭐",
+    "favorite": true,
+    "review": "David Fincher's anti-consumerist masterpiece with an unforgettable psychological twist."
+  },
+  {
+    "title": "Final Destination 2",
+    "type": "movie",
+    "year": 2003,
+    "genre": "Horror / Thriller",
+    "rating": "⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "The iconic highway pile-up opening sets a terrifying tone for cheating death."
+  },
+  {
+    "title": "The Fast and the Furious",
+    "type": "movie",
+    "year": 2001,
+    "genre": "Action / Crime",
+    "rating": "⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "Street racing culture, undercover cops, and early family bonds."
+  },
+  {
+    "title": "2 Fast 2 Furious",
+    "type": "movie",
+    "year": 2003,
+    "genre": "Action / Crime",
+    "rating": "⭐⭐⭐½",
+    "favorite": false,
+    "review": "Brian O'Conner teams up with Roman Pearce for vibrant Miami street races."
+  },
+  {
+    "title": "The Fast and the Furious: Tokyo Drift",
+    "type": "movie",
+    "year": 2006,
+    "genre": "Action / Crime",
+    "rating": "⭐⭐⭐⭐½",
+    "favorite": false,
+    "review": "Underground drift culture in Tokyo featuring Han and thrilling parking garage runs."
+  },
+  {
+    "title": "Fantastic Four",
+    "type": "movie",
+    "year": 2005,
+    "genre": "Action / Sci-Fi",
+    "rating": "⭐⭐⭐½",
+    "favorite": false,
+    "review": "Cosmic radiation gives Marvel's first family their powers to combat Doctor Doom."
+  },
+  {
+    "title": "Fantastic Four: Rise of the Silver Surfer",
+    "type": "movie",
+    "year": 2007,
+    "genre": "Action / Sci-Fi",
+    "rating": "⭐⭐⭐",
+    "favorite": false,
+    "review": "The team faces the planetary herald Silver Surfer and the arrival of Galactus."
+  },
+  {
+    "title": "Frozen",
+    "type": "movie",
+    "year": 2013,
+    "genre": "Animation / Musical",
+    "rating": "⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "A magical winter musical celebrating sisterhood over traditional fairy-tale tropes."
+  },
+  {
+    "title": "Fantastic Four",
+    "type": "movie",
+    "year": 2015,
+    "genre": "Action / Sci-Fi",
+    "rating": "⭐⭐",
+    "favorite": false,
+    "review": "A darker, body-horror-infused attempt at the origin story."
+  },
+  {
+    "title": "Fifty Shades of Grey",
+    "type": "movie",
+    "year": 2015,
+    "genre": "Romance / Drama",
+    "rating": "⭐⭐½",
+    "favorite": false,
+    "review": "The romance drama exploring the turbulent connection between Anastasia and Christian."
+  },
+  {
+    "title": "Ford v Ferrari",
+    "type": "movie",
+    "year": 2019,
+    "genre": "Action / Biography",
+    "rating": "⭐⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "Ken Miles and Carroll Shelby push engineering limits to take on Ferrari at Le Mans."
+  },
+  {
+    "title": "Free Guy",
+    "type": "movie",
+    "year": 2021,
+    "genre": "Action / Comedy",
+    "rating": "⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "An NPC bank teller gains consciousness and becomes the hero of an open-world game."
+  },
+  {
+    "title": "Frankenstein",
+    "type": "movie",
+    "year": 2025,
+    "genre": "Horror / Sci-Fi",
+    "rating": "⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "Guillermo del Toro's gothic, deeply emotional reimagining of Mary Shelley's monster."
+  },
+  {
+    "title": "Godzilla",
+    "type": "movie",
+    "year": 1998,
+    "genre": "Action / Sci-Fi",
+    "rating": "⭐⭐⭐",
+    "favorite": false,
+    "review": "The giant mutated reptile rampages through New York City."
+  },
+  {
+    "title": "Gladiator",
+    "type": "movie",
+    "year": 2000,
+    "genre": "Action / Drama",
+    "rating": "⭐⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "Maximus' legendary quest for vengeance and justice in the Colosseum."
+  },
+  {
+    "title": "Guardians of the Galaxy",
+    "type": "movie",
+    "year": 2014,
+    "genre": "Action / Sci-Fi",
+    "rating": "⭐⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "A ragtag group of galactic misfits bonds over an awesome mixtape."
+  },
+  {
+    "title": "Guardians of the Galaxy Vol. 2",
+    "type": "movie",
+    "year": 2017,
+    "genre": "Action / Sci-Fi",
+    "rating": "⭐⭐⭐⭐½",
+    "favorite": false,
+    "review": "Peter Quill meets his celestial father Ego amidst emotional character arcs."
+  },
+  {
+    "title": "Guardians of the Galaxy Vol. 3",
+    "type": "movie",
+    "year": 2023,
+    "genre": "Action / Sci-Fi",
+    "rating": "⭐⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "A deeply emotional goodbye focusing on Rocket's heartbreaking origin story."
+  },
+  {
+    "title": "The Guardians of the Galaxy Holiday Special",
+    "type": "movie",
+    "year": 2022,
+    "genre": "Comedy / Sci-Fi",
+    "rating": "⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "Drax and Mantis hunt for Kevin Bacon to cheer up Peter Quill."
+  },
+  {
+    "title": "Ghost Rider",
+    "type": "movie",
+    "year": 2007,
+    "genre": "Action / Fantasy",
+    "rating": "⭐⭐⭐",
+    "favorite": false,
+    "review": "Nicolas Cage becomes the flaming-skulled bounty hunter for Mephistopheles."
+  },
+  {
+    "title": "The Gray Man",
+    "type": "movie",
+    "year": 2022,
+    "genre": "Action / Thriller",
+    "rating": "⭐⭐⭐½",
+    "favorite": false,
+    "review": "Ryan Gosling and Chris Evans clash in a fast-paced global cat-and-mouse hunt."
   }
 ]
