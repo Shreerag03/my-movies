@@ -364,5 +364,87 @@
     "rating": "⭐⭐⭐⭐",
     "favorite": false,
     "review": "An inventive, hilarious truce where birds and pigs join forces."
+  },
+  {
+    "title": "Batman Begins",
+    "type": "movie",
+    "year": 2005,
+    "genre": "Action / Crime",
+    "rating": "⭐⭐⭐⭐½",
+    "favorite": false,
+    "review": "Christopher Nolan's grounded origin story forging Bruce Wayne into the Dark Knight."
+  },
+  {
+    "title": "The Batman",
+    "type": "movie",
+    "year": 2022,
+    "genre": "Action / Crime",
+    "rating": "⭐⭐⭐⭐½",
+    "favorite": false,
+    "review": "Robert Pattinson's gritty, noir detective take on Gotham's underground corruption."
+  },
+  {
+    "title": "Batman v Superman: Dawn of Justice",
+    "type": "movie",
+    "year": 2016,
+    "genre": "Action / Sci-Fi",
+    "rating": "⭐⭐⭐½",
+    "favorite": false,
+    "review": "An ideological clash of titans fueled by Lex Luthor's manipulation."
+  },
+  {
+    "title": "Beauty and the Beast",
+    "type": "movie",
+    "year": 2017,
+    "genre": "Fantasy / Musical",
+    "rating": "⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "A lavish live-action reimagining of the classic Disney fairy tale."
+  },
+  {
+    "title": "Bruce Almighty",
+    "type": "movie",
+    "year": 2003,
+    "genre": "Comedy / Fantasy",
+    "rating": "⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "Jim Carrey receives godlike powers with hilarious and meaningful consequences."
+  },
+  {
+    "title": "The Boys",
+    "type": "series",
+    "seasons": "4 Seasons",
+    "year": "2019 - Present",
+    "genre": "Action / Dark Comedy",
+    "rating": "⭐⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "A brutally realistic and satirical take on corrupt corporate-sponsored superheroes."
+  },
+  {
+    "title": "Big Hero 6",
+    "type": "movie",
+    "year": 2014,
+    "genre": "Animation / Sci-Fi",
+    "rating": "⭐⭐⭐⭐½",
+    "favorite": false,
+    "review": "A heartfelt tech adventure bonding Hiro and the inflatable healthcare robot Baymax."
+  },
+  {
+    "title": "The Boss Baby",
+    "type": "movie",
+    "year": 2017,
+    "genre": "Animation / Comedy",
+    "rating": "⭐⭐⭐½",
+    "favorite": false,
+    "review": "A briefcase-carrying secret agent infant voiced smoothly by Alec Baldwin."
+  },
+  {
+    "title": "The Lego Batman Movie",
+    "type": "movie",
+    "year": 2017,
+    "genre": "Animation / Comedy",
+    "rating": "⭐⭐⭐⭐½",
+    "favorite": false,
+    "review": "Rapid-fire humor, endless DC easter eggs, and a surprisingly heartfelt arc."
   }
 ]
