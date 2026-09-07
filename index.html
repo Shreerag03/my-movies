@@ -13,21 +13,41 @@
     <p>A personal archive of every movie and web series I've loved and experienced.</p>
   </header>
 
+  <!-- Search, Filter, and Sort Controls -->
+  <div class="controls-container">
+    <div class="search-box">
+      <input type="text" id="search-input" placeholder="🔍 Search movies, shows, or reviews..." />
+    </div>
+    
+    <div class="filter-sort-group">
+      <select id="genre-filter">
+        <option value="all">🎭 All Genres</option>
+      </select>
+
+      <select id="sort-select">
+        <option value="az">🔤 Title (A to Z)</option>
+        <option value="za">🔤 Title (Z to A)</option>
+        <option value="newest">📅 Year (Newest First)</option>
+        <option value="oldest">📅 Year (Oldest First)</option>
+      </select>
+    </div>
+  </div>
+
   <main class="container">
     <!-- 1. All-Time Favorites -->
-    <section>
+    <section id="section-favorites">
       <h2>⭐ All-Time Favorites</h2>
       <div id="all-time-favorites" class="card-grid"></div>
     </section>
 
-    <!-- 2. All Movies Watched (Sorted Alphabetically A-Z) -->
-    <section>
+    <!-- 2. All Movies Watched -->
+    <section id="section-movies">
       <h2>🎞️ All Movies Watched</h2>
       <div id="all-movies" class="card-grid"></div>
     </section>
 
     <!-- 3. Web Series Watched -->
-    <section>
+    <section id="section-series">
       <h2>📺 Web Series Watched</h2>
       <div id="web-series" class="card-grid"></div>
     </section>
@@ -39,7 +59,14 @@
   </footer>
 
   <script>
-    // Helper function to build each card element
+    let allData = [];
+
+    function extractYear(item) {
+      if (typeof item.year === 'number') return item.year;
+      const match = String(item.year).match(/\d{4}/);
+      return match ? parseInt(match[0], 10) : 0;
+    }
+
     function createCard(item) {
       const card = document.createElement('div');
       card.className = 'movie-card';
@@ -59,30 +86,81 @@
       return card;
     }
 
+    function populateGenreDropdown(items) {
+      const genreSelect = document.getElementById('genre-filter');
+      const genres = new Set();
+
+      items.forEach(item => {
+        if (item.genre) {
+          item.genre.split('/').forEach(g => genres.add(g.trim()));
+        }
+      });
+
+      Array.from(genres).sort().forEach(genre => {
+        const opt = document.createElement('option');
+        opt.value = genre.toLowerCase();
+        opt.textContent = genre;
+        genreSelect.appendChild(opt);
+      });
+    }
+
+    function renderList(targetId, list) {
+      const container = document.getElementById(targetId);
+      container.innerHTML = '';
+      if (list.length === 0) {
+        container.innerHTML = `<p class="empty-msg">No entries found.</p>`;
+        return;
+      }
+      list.forEach(item => container.appendChild(createCard(item)));
+    }
+
+    function applyFilters() {
+      const searchQuery = document.getElementById('search-input').value.toLowerCase().trim();
+      const selectedGenre = document.getElementById('genre-filter').value;
+      const sortMode = document.getElementById('sort-select').value;
+
+      let filtered = allData.filter(item => {
+        const matchesSearch = 
+          item.title.toLowerCase().includes(searchQuery) ||
+          (item.genre && item.genre.toLowerCase().includes(searchQuery)) ||
+          (item.review && item.review.toLowerCase().includes(searchQuery));
+
+        const matchesGenre = (selectedGenre === 'all') || 
+          (item.genre && item.genre.toLowerCase().includes(selectedGenre));
+
+        return matchesSearch && matchesGenre;
+      });
+
+      filtered.sort((a, b) => {
+        if (sortMode === 'az') return a.title.localeCompare(b.title);
+        if (sortMode === 'za') return b.title.localeCompare(a.title);
+        if (sortMode === 'newest') return extractYear(b) - extractYear(a);
+        if (sortMode === 'oldest') return extractYear(a) - extractYear(b);
+        return 0;
+      });
+
+      // Split into categories
+      const favorites = filtered.filter(item => item.favorite);
+      const movies = filtered.filter(item => item.type === 'movie');
+      const series = filtered.filter(item => item.type === 'series');
+
+      renderList('all-time-favorites', favorites);
+      renderList('all-movies', movies);
+      renderList('web-series', series);
+    }
+
     fetch('movies.json')
-      .then(response => response.json())
-      .then(items => {
-        // 1. Render Favorites (preserves your custom list order)
-        const favGrid = document.getElementById('all-time-favorites');
-        items.filter(item => item.favorite).forEach(item => {
-          favGrid.appendChild(createCard(item));
-        });
+      .then(res => res.json())
+      .then(data => {
+        allData = data;
+        populateGenreDropdown(data);
+        applyFilters();
 
-        // 2. Render All Movies Watched (Automatically sorted A to Z by title)
-        const moviesGrid = document.getElementById('all-movies');
-        const moviesList = items.filter(item => item.type === 'movie');
-        moviesList.sort((a, b) => a.title.localeCompare(b.title));
-        moviesList.forEach(movie => {
-          moviesGrid.appendChild(createCard(movie));
-        });
-
-        // 3. Render Web Series Watched
-        const seriesGrid = document.getElementById('web-series');
-        items.filter(item => item.type === 'series').forEach(series => {
-          seriesGrid.appendChild(createCard(series));
-        });
+        document.getElementById('search-input').addEventListener('input', applyFilters);
+        document.getElementById('genre-filter').addEventListener('change', applyFilters);
+        document.getElementById('sort-select').addEventListener('change', applyFilters);
       })
-      .catch(err => console.error("Error loading watchlist data:", err));
+      .catch(err => console.error("Error loading watchlist:", err));
   </script>
 </body>
 </html>

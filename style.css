@@ -23,7 +23,7 @@ body {
 
 header {
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 header h1 {
@@ -33,6 +33,59 @@ header h1 {
 
 header p {
   color: var(--text-muted);
+}
+
+/* Control Bar: Search, Genre, and Sort */
+.controls-container {
+  max-width: 1000px;
+  margin: 0 auto 2.5rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-box {
+  flex: 1 1 280px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background-color: var(--card-bg);
+  border: 1px solid #334155;
+  border-radius: 8px;
+  color: var(--text-main);
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.search-box input:focus {
+  border-color: var(--accent);
+}
+
+.filter-sort-group {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.filter-sort-group select {
+  padding: 0.75rem 1rem;
+  background-color: var(--card-bg);
+  border: 1px solid #334155;
+  border-radius: 8px;
+  color: var(--text-main);
+  font-size: 0.9rem;
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.filter-sort-group select:focus {
+  border-color: var(--accent);
 }
 
 .container {
@@ -103,6 +156,12 @@ section h2 {
   font-style: italic;
   margin-top: 0.5rem;
   color: #cbd5e1 !important;
+}
+
+.empty-msg {
+  color: var(--text-muted);
+  font-style: italic;
+  grid-column: 1 / -1;
 }
 
 footer {
