@@ -446,5 +446,234 @@
     "rating": "⭐⭐⭐⭐½",
     "favorite": false,
     "review": "Rapid-fire humor, endless DC easter eggs, and a surprisingly heartfelt arc."
+  },
+  {
+    "title": "Black Widow",
+    "type": "movie",
+    "year": 2021,
+    "genre": "Action / Sci-Fi",
+    "rating": "⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "Natasha Romanoff confronts her past and family ties in the Red Room."
+  },
+  {
+    "title": "Black Panther",
+    "type": "movie",
+    "year": 2018,
+    "genre": "Action / Sci-Fi",
+    "rating": "⭐⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "Chadwick Boseman delivers an iconic performance exploring Wakanda's heritage and Killmonger's challenge."
+  },
+  {
+    "title": "Black Panther: Wakanda Forever",
+    "type": "movie",
+    "year": 2022,
+    "genre": "Action / Drama",
+    "rating": "⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "A moving tribute to T'Challa introducing Namor and the undersea kingdom of Talokan."
+  },
+  {
+    "title": "Captain Marvel",
+    "type": "movie",
+    "year": 2019,
+    "genre": "Action / Sci-Fi",
+    "rating": "⭐⭐⭐½",
+    "favorite": false,
+    "review": "Carol Danvers uncovers her cosmic origins alongside a younger Nick Fury."
+  },
+  {
+    "title": "Captain America: Brave New World",
+    "type": "movie",
+    "year": 2025,
+    "genre": "Action / Sci-Fi",
+    "rating": "⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "Sam Wilson takes flight wielding the shield amidst high-stakes global political conspiracies."
+  },
+  {
+    "title": "Cars",
+    "type": "movie",
+    "year": 2006,
+    "genre": "Animation / Comedy",
+    "rating": "⭐⭐⭐⭐½",
+    "favorite": false,
+    "review": "Lightning McQueen learns humility and friendship in the quiet town of Radiator Springs."
+  },
+  {
+    "title": "Cars 2",
+    "type": "movie",
+    "year": 2011,
+    "genre": "Animation / Adventure",
+    "rating": "⭐⭐⭐",
+    "favorite": false,
+    "review": "A wild international espionage adventure putting Mater front and center."
+  },
+  {
+    "title": "Cars 3",
+    "type": "movie",
+    "year": 2017,
+    "genre": "Animation / Drama",
+    "rating": "⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "A mature racing comeback story mentoring the next generation of racers."
+  },
+  {
+    "title": "Coco",
+    "type": "movie",
+    "year": 2017,
+    "genre": "Animation / Fantasy",
+    "rating": "⭐⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "A vibrant celebration of Mexican culture, family lineage, and unforgettable music."
+  },
+  {
+    "title": "Chernobyl",
+    "type": "series",
+    "seasons": "1 Season",
+    "year": 2019,
+    "genre": "Drama / History",
+    "rating": "⭐⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "A harrowing, meticulously researched look at the 1986 nuclear disaster and political fallout."
+  },
+  {
+    "title": "Daredevil",
+    "type": "movie",
+    "year": 2003,
+    "genre": "Action / Crime",
+    "rating": "⭐⭐⭐",
+    "favorite": false,
+    "review": "Ben Affleck dons the red leather suit tackling Bullseye and Kingpin in Hell's Kitchen."
+  },
+  {
+    "title": "Deadpool",
+    "type": "movie",
+    "year": 2016,
+    "genre": "Action / Comedy",
+    "rating": "⭐⭐⭐⭐½",
+    "favorite": false,
+    "review": "Ryan Reynolds breaks the fourth wall with irreverent humor and razor-sharp action."
+  },
+  {
+    "title": "Deadpool 2",
+    "type": "movie",
+    "year": 2018,
+    "genre": "Action / Comedy",
+    "rating": "⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "Wade Wilson forms the X-Force to protect a young mutant from the time-traveling Cable."
+  },
+  {
+    "title": "Deadpool & Wolverine",
+    "type": "movie",
+    "year": 2024,
+    "genre": "Action / Comedy",
+    "rating": "⭐⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "An electrifying team-up packed with multiversal cameos and chaotic synergy."
+  },
+  {
+    "title": "Doctor Strange",
+    "type": "movie",
+    "year": 2016,
+    "genre": "Action / Fantasy",
+    "rating": "⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "Mind-bending kaleidoscopic reality distortion and mystic arts training."
+  },
+  {
+    "title": "Doctor Strange in the Multiverse of Madness",
+    "type": "movie",
+    "year": 2022,
+    "genre": "Action / Horror",
+    "rating": "⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "Sam Raimi injects dark comic book horror as Wanda unleashes her grief across dimensions."
+  },
+  {
+    "title": "Dunkirk",
+    "type": "movie",
+    "year": 2017,
+    "genre": "Action / History",
+    "rating": "⭐⭐⭐⭐½",
+    "favorite": false,
+    "review": "Christopher Nolan's masterclass in suspense, ticking clocks, and aerial/maritime survival."
+  },
+  {
+    "title": "Dune",
+    "type": "movie",
+    "year": 2021,
+    "genre": "Sci-Fi / Adventure",
+    "rating": "⭐⭐⭐⭐½",
+    "favorite": false,
+    "review": "Denis Villeneuve's grand adaptation of Arrakis with awe-inspiring scale and world-building."
+  },
+  {
+    "title": "Doraemon: Nobita's New Great Adventure into the Underworld",
+    "type": "movie",
+    "year": 2007,
+    "genre": "Animation / Fantasy",
+    "rating": "⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "Nobita uses the What-If Phone to create a world of magic, taking on the demonic underworld."
+  },
+  {
+    "title": "Doraemon: Nobita and the Steel Troops",
+    "type": "movie",
+    "year": 2011,
+    "genre": "Animation / Sci-Fi",
+    "rating": "⭐⭐⭐⭐½",
+    "favorite": false,
+    "review": "An emotional, action-packed mech invasion story featuring Pippo and giant robot battles."
+  },
+  {
+    "title": "Doraemon: Nobita's New Dinosaur",
+    "type": "movie",
+    "year": 2020,
+    "genre": "Animation / Adventure",
+    "rating": "⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "A heartwarming prehistoric adventure raising two twin feathered dinosaurs, Kyu and Myu."
+  },
+  {
+    "title": "Daredevil",
+    "type": "series",
+    "seasons": "3 Seasons",
+    "year": "2015 - 2018",
+    "genre": "Action / Crime",
+    "rating": "⭐⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "Gritty, grounded masterpiece featuring Charlie Cox and Vincent D'Onofrio's terrifying Kingpin."
+  },
+  {
+    "title": "Dark",
+    "type": "series",
+    "seasons": "3 Seasons",
+    "year": "2017 - 2020",
+    "genre": "Sci-Fi / Mystery",
+    "rating": "⭐⭐⭐⭐⭐",
+    "favorite": true,
+    "review": "Intricate, mind-bending German time-travel puzzle where past, present, and future are connected."
+  },
+  {
+    "title": "Daredevil: Born Again",
+    "type": "series",
+    "seasons": "1 Season",
+    "year": 2025,
+    "genre": "Action / Crime",
+    "rating": "⭐⭐⭐⭐⭐",
+    "favorite": true,
+    "review": "Matt Murdock returns to Hell's Kitchen to reignite his legendary rivalry with Wilson Fisk."
+  },
+  {
+    "title": "Dead Poets Society",
+    "type": "movie",
+    "year": 1989,
+    "genre": "Drama / Comedy",
+    "rating": "⭐⭐⭐⭐⭐",
+    "favorite": false,
+    "review": "Robin Williams inspires nonconformity and a profound passion for poetry and life."
   }
 ]
