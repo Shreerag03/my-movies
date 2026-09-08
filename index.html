@@ -13,7 +13,7 @@
     <p>A personal archive of every movie and web series I've loved and experienced.</p>
   </header>
 
-  <!-- New Category Routing Tabs -->
+  <!-- Category Routing Tabs -->
   <div class="category-tabs" id="category-tabs">
     <button class="tab-btn active" data-category="all">All Entries</button>
     <button class="tab-btn" data-category="hollywood">Hollywood</button>
@@ -111,6 +111,16 @@
     function createCard(item) {
       const card = document.createElement('div');
       card.className = 'movie-card';
+
+      // --- NEW: Make the card clickable for Google Search ---
+      card.style.cursor = 'pointer'; 
+      card.title = `Click to search for ${item.title}`; 
+      card.addEventListener('click', () => {
+        const searchTerms = `${item.title} ${item.year ? item.year : ''} ${item.type === 'series' ? 'tv series' : 'movie'}`;
+        const googleUrl = `https://www.google.com/search?q=${encodeURIComponent(searchTerms)}`;
+        window.open(googleUrl, '_blank'); 
+      });
+      // --------------------------------------------------------
 
       const infoLine = item.seasons 
         ? `<p><strong>Seasons:</strong> ${item.seasons} (${item.year})</p>`
@@ -260,7 +270,7 @@
     fetch('movies.json')
       .then(res => res.json())
       .then(data => {
-        // The Duplicate Catcher is still here!
+        // The Duplicate Catcher
         const seen = new Set();
         allData = data.filter(item => {
           const key = `${item.title.toLowerCase().trim()}-${item.year}`;
