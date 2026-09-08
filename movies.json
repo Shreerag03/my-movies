@@ -1198,7 +1198,8 @@
     "type": "movie",
     "rating": "⭐⭐⭐⭐⭐",
     "language": "Hindi",
-    "genre": "Comedy / Drama"
+    "genre": "Comedy / Drama",
+    "favorite": true
   },
   {
     "title": "Chennai Express",
@@ -1878,5 +1879,222 @@
     "rating": "⭐⭐⭐⭐",
     "language": "Japanese",
     "genre": "Animation / Adventure"
+  },
+  {
+    "title": "Life of Pi",
+    "year": 2012,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Adventure / Drama"
+  },
+  {
+    "title": "The Lion King",
+    "year": 1994,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Drama"
+  },
+  {
+    "title": "The Punisher",
+    "year": 2017,
+    "seasons": "2 Seasons",
+    "type": "series",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Crime"
+  },
+  {
+    "title": "The Punisher: One Last Kill",
+    "year": 2019,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Crime"
+  },
+  {
+    "title": "The Odyssey",
+    "year": 2026,
+    "type": "series",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Adventure / Fantasy"
+  },
+  {
+    "title": "Marvel Zombies",
+    "year": 2024,
+    "seasons": "1 Season",
+    "type": "series",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Horror"
+  },
+  {
+    "title": "Minions",
+    "year": 2015,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Comedy"
+  },
+  {
+    "title": "Nightcrawler",
+    "year": 2014,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Thriller / Drama"
+  },
+  {
+    "title": "Prisoners",
+    "year": 2013,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Thriller / Crime"
+  },
+  {
+    "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "year": 2003,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Adventure"
+  },
+  {
+    "title": "Pirates of the Caribbean: Dead Man's Chest",
+    "year": 2006,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Adventure",
+    "favorite": true
+  },
+  {
+    "title": "Pirates of the Caribbean: At World's End",
+    "year": 2007,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Adventure"
+  },
+  {
+    "title": "Pirates of the Caribbean: On Stranger Tides",
+    "year": 2011,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Adventure"
+  },
+  {
+    "title": "Pirates of the Caribbean: Dead Men Tell No Tales",
+    "year": 2017,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Adventure",
+    "favorite": true
+  },
+  {
+    "title": "Pokémon Detective Pikachu",
+    "year": 2019,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Adventure"
+  },
+  {
+    "title": "The Prestige",
+    "year": 2006,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Mystery / Sci-Fi",
+    "favorite": true
+  },
+  {
+    "title": "Puss in Boots",
+    "year": 2011,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Adventure"
+  },
+  {
+    "title": "Puss in Boots: The Last Wish",
+    "year": 2022,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Adventure"
+  },
+  {
+    "title": "The Pursuit of Happyness",
+    "year": 2006,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Drama / Biography",
+    "favorite": true
+  },
+  {
+    "title": "The Penguins of Madagascar",
+    "year": 2014,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Comedy"
+  },
+  {
+    "title": "Project Hail Mary",
+    "year": 2026,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Sci-Fi / Thriller"
+  },
+  {
+    "title": "PK",
+    "year": 2014,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "Hindi",
+    "genre": "Comedy / Drama",
+    "favorite": true
+  },
+  {
+    "title": "Dil Bechara",
+    "year": 2020,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "Hindi",
+    "genre": "Romance / Drama"
+  },
+  {
+    "title": "3 Idiots",
+    "year": 2009,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "Hindi",
+    "genre": "Comedy / Drama"
+  },
+  {
+    "title": "Dhurandar 1",
+    "year": 2023,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "Hindi",
+    "genre": "Action / Comedy",
+    "favorite": true
+  },
+  {
+    "title": "Dhurandar 2",
+    "year": 2024,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "Hindi",
+    "genre": "Action / Comedy",
+    "favorite": true
   }
 ]
