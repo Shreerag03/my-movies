@@ -2313,5 +2313,429 @@
     "language": "English",
     "genre": "Animation / Action",
     "favorite": true
+  },
+  {
+    "title": "The Dark Knight",
+    "year": 2008,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Crime",
+    "favorite": true
+  },
+  {
+    "title": "The Dark Knight Rises",
+    "year": 2012,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Crime",
+    "favorite": true
+  },
+  {
+    "title": "Tangled",
+    "year": 2010,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Adventure"
+  },
+  {
+    "title": "Tarzan",
+    "year": 1999,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Adventure"
+  },
+  {
+    "title": "The Sheep Detective",
+    "year": 2022,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Mystery"
+  },
+  {
+    "title": "Titanic",
+    "year": 1997,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Romance / Drama"
+  },
+  {
+    "title": "The Wolf of Wall Street",
+    "year": 2013,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Biography / Comedy"
+  },
+  {
+    "title": "The Revenant",
+    "year": 2015,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Adventure / Drama"
+  },
+  {
+    "title": "The Flash",
+    "year": 2023,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "Thor",
+    "year": 2011,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Adventure"
+  },
+  {
+    "title": "Transformers",
+    "year": 2007,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "Transformers: Revenge of the Fallen",
+    "year": 2009,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "Transformers: Dark of the Moon",
+    "year": 2011,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "Transformers: Age of Extinction",
+    "year": 2014,
+    "type": "movie",
+    "rating": "⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "Transformers: The Last Knight",
+    "year": 2017,
+    "type": "movie",
+    "rating": "⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "Bumblebee",
+    "year": 2018,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Adventure"
+  },
+  {
+    "title": "Transformers: Rise of the Beasts",
+    "year": 2023,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "The Conjuring",
+    "year": 2013,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Horror / Thriller"
+  },
+  {
+    "title": "The Conjuring 2",
+    "year": 2016,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Horror / Thriller"
+  },
+  {
+    "title": "Troy",
+    "year": 2004,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Drama"
+  },
+  {
+    "title": "The Dictator",
+    "year": 2012,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Comedy",
+    "favorite": true
+  },
+  {
+    "title": "The Angry Birds Movie",
+    "year": 2016,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Comedy"
+  },
+  {
+    "title": "The Angry Birds Movie 2",
+    "year": 2019,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Comedy"
+  },
+  {
+    "title": "Train to Busan",
+    "year": 2016,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "Korean",
+    "genre": "Horror / Action"
+  },
+  {
+    "title": "The Falcon and the Winter Soldier",
+    "year": 2021,
+    "seasons": "1 Season",
+    "type": "series",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Adventure"
+  },
+  {
+    "title": "The Bad Guys",
+    "year": 2022,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Comedy"
+  },
+  {
+    "title": "The Bad Guys 2",
+    "year": 2025,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Comedy"
+  },
+  {
+    "title": "Taare Zameen Par",
+    "year": 2007,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "Hindi",
+    "genre": "Drama / Family"
+  },
+  {
+    "title": "Tumbbad",
+    "year": 2018,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "Hindi",
+    "genre": "Horror / Fantasy",
+    "favorite": true
+  },
+  {
+    "title": "The Fall Guy",
+    "year": 2024,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Comedy"
+  },
+  {
+    "title": "Top Gun: Maverick",
+    "year": 2022,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Drama"
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Drama",
+    "favorite": true
+  },
+  {
+    "title": "Spider-Noir",
+    "year": 2025,
+    "seasons": "1 Season",
+    "type": "series",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Crime"
+  },
+  {
+    "title": "Uncharted",
+    "year": 2022,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Adventure"
+  },
+  {
+    "title": "Venom",
+    "year": 2018,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "Venom: Let There Be Carnage",
+    "year": 2021,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "Venom: The Last Dance",
+    "year": 2024,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "Wonder Woman",
+    "year": 2017,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Adventure"
+  },
+  {
+    "title": "World War Z",
+    "year": 2013,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Horror"
+  },
+  {
+    "title": "The Wolverine",
+    "year": 2013,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "WALL·E",
+    "year": 2008,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Sci-Fi"
+  },
+  {
+    "title": "Weathering with You",
+    "year": 2019,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "Japanese",
+    "genre": "Animation / Fantasy"
+  },
+  {
+    "title": "X-Men: The Last Stand",
+    "year": 2006,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "X-Men: First Class",
+    "year": 2011,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "X-Men: Days of Future Past",
+    "year": 2014,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "X-Men: Apocalypse",
+    "year": 2016,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "X-Men: Dark Phoenix",
+    "year": 2019,
+    "type": "movie",
+    "rating": "⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "X2: X-Men United",
+    "year": 2003,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "Zodiac",
+    "year": 2007,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Crime / Thriller",
+    "favorite": true
+  },
+  {
+    "title": "Zack Snyder's Justice League",
+    "year": 2021,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Adventure"
+  },
+  {
+    "title": "Zootopia",
+    "year": 2016,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Adventure"
+  },
+  {
+    "title": "Zootopia 2",
+    "year": 2025,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Adventure"
   }
 ]
