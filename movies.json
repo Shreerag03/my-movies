@@ -2096,5 +2096,222 @@
     "language": "Hindi",
     "genre": "Action / Comedy",
     "favorite": true
+  },
+  {
+    "title": "Ratatouille",
+    "year": 2007,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Comedy"
+  },
+  {
+    "title": "Raya and the Last Dragon",
+    "year": 2021,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Action"
+  },
+  {
+    "title": "Red Notice",
+    "year": 2021,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Comedy"
+  },
+  {
+    "title": "Rise of the Planet of the Apes",
+    "year": 2011,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Sci-Fi / Action"
+  },
+  {
+    "title": "Rush Hour",
+    "year": 1998,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Comedy",
+    "favorite": true
+  },
+  {
+    "title": "Rush Hour 2",
+    "year": 2001,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Comedy"
+  },
+  {
+    "title": "Rush Hour 3",
+    "year": 2007,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Comedy",
+    "favorite": true
+  },
+  {
+    "title": "RRR",
+    "year": 2022,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "Telugu",
+    "genre": "Action / Drama"
+  },
+  {
+    "title": "Rango",
+    "year": 2011,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Western",
+    "favorite": true
+  },
+  {
+    "title": "Extraction",
+    "year": 2020,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Thriller"
+  },
+  {
+    "title": "Extraction 2",
+    "year": 2023,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Thriller"
+  },
+  {
+    "title": "Red One",
+    "year": 2024,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Comedy"
+  },
+  {
+    "title": "Ratsasan",
+    "year": 2018,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "Tamil",
+    "genre": "Thriller / Crime"
+  },
+  {
+    "title": "Se7en",
+    "year": 1995,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Thriller / Crime",
+    "favorite": true
+  },
+  {
+    "title": "Shazam!",
+    "year": 2019,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Comedy"
+  },
+  {
+    "title": "Shazam! Fury of the Gods",
+    "year": 2023,
+    "type": "movie",
+    "rating": "⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Comedy"
+  },
+  {
+    "title": "Shang-Chi and the Legend of the Ten Rings",
+    "year": 2021,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Fantasy"
+  },
+  {
+    "title": "Shutter Island",
+    "year": 2010,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Thriller / Mystery",
+    "favorite": true
+  },
+  {
+    "title": "Superman",
+    "year": 2025,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "Sonic the Hedgehog",
+    "year": 2020,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Adventure"
+  },
+  {
+    "title": "Sonic the Hedgehog 2",
+    "year": 2022,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Adventure"
+  },
+  {
+    "title": "Sonic the Hedgehog 3",
+    "year": 2024,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Adventure"
+  },
+  {
+    "title": "Squid Game",
+    "year": 2021,
+    "seasons": "1 Season",
+    "type": "series",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "Korean",
+    "genre": "Thriller / Drama"
+  },
+  {
+    "title": "The Social Network",
+    "year": 2010,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Drama / Biography"
+  },
+  {
+    "title": "She-Hulk: Attorney at Law",
+    "year": 2022,
+    "seasons": "1 Season",
+    "type": "series",
+    "rating": "⭐½",
+    "language": "English",
+    "genre": "Action / Comedy"
+  },
+  {
+    "title": "The Spectacular Spider-Man",
+    "year": 2008,
+    "seasons": "2 Seasons",
+    "type": "series",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Action",
+    "favorite": true
   }
 ]
