@@ -214,7 +214,15 @@
     fetch('movies.json')
       .then(res => res.json())
       .then(data => {
-        allData = data;
+        // The Duplicate Catcher!
+        const seen = new Set();
+        allData = data.filter(item => {
+          const key = `${item.title.toLowerCase().trim()}-${item.year}`;
+          if (seen.has(key)) return false;
+          seen.add(key);
+          return true;
+        });
+
         populateDropdowns(allData);
         applyFilters();
 
