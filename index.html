@@ -13,6 +13,14 @@
     <p>A personal archive of every movie and web series I've loved and experienced.</p>
   </header>
 
+  <!-- New Category Routing Tabs -->
+  <div class="category-tabs" id="category-tabs">
+    <button class="tab-btn active" data-category="all">All Entries</button>
+    <button class="tab-btn" data-category="hollywood">Hollywood</button>
+    <button class="tab-btn" data-category="indian">Indian Cinema</button>
+    <button class="tab-btn" data-category="anime">Anime</button>
+  </div>
+
   <div class="controls-container">
     <div class="search-box">
       <input type="text" id="search-input" placeholder="🔍 Search movies, shows, or reviews..." />
@@ -31,6 +39,8 @@
         <option value="newest">📅 Year (Newest First)</option>
         <option value="oldest">📅 Year (Oldest First)</option>
       </select>
+      <!-- Layout Toggle Button -->
+      <button id="layout-toggle" class="layout-toggle">📄 List View</button>
     </div>
   </div>
 
@@ -55,6 +65,8 @@
     const OMDB_API_KEY = "9402d628";
     const TMDB_KEY = "15d2ea6d0dc1d476efbca3eba2b9bbfb";
     let allData = [];
+    let currentCategory = 'all';
+    let isListView = false;
 
     function extractYear(item) {
       if (typeof item.year === 'number') return item.year;
@@ -79,9 +91,7 @@
             return posterUrl;
           }
         }
-      } catch (err) {
-        console.warn("TMDB error:", err);
-      }
+      } catch (err) {}
 
       try {
         const cleanYear = extractYear({ year });
@@ -94,9 +104,7 @@
           localStorage.setItem(cacheKey, securePoster);
           return securePoster;
         }
-      } catch (err) {
-        console.warn("OMDb error:", err);
-      }
+      } catch (err) {}
       return null;
     }
 
@@ -118,7 +126,7 @@
         <div class="card-body">
           <h3>${item.title}</h3>
           ${infoLine}
-          <p><strong>Rating:</strong> ${item.rating}</p>
+          <p class="rating-text"><strong>Rating:</strong> ${item.rating}</p>
           <span class="genre-badge">${item.genre}</span>
         </div>
       `;
@@ -151,6 +159,9 @@
         }
       });
 
+      langSelect.innerHTML = '<option value="all">🌐 All Languages</option>';
+      genreSelect.innerHTML = '<option value="all">🎭 All Genres</option>';
+
       Array.from(languages).sort().forEach(lang => {
         const opt = document.createElement('option');
         opt.value = lang.toLowerCase();
@@ -170,7 +181,7 @@
       const container = document.getElementById(targetId);
       container.innerHTML = '';
       if (list.length === 0) {
-        container.innerHTML = `<p class="empty-msg" style="padding: 1rem; color: #94a3b8; font-style: italic;">No entries found matching your search.</p>`;
+        container.innerHTML = `<p style="padding: 1rem; color: #94a3b8; font-style: italic;">No entries found.</p>`;
         return;
       }
       list.forEach(item => container.appendChild(createCard(item)));
@@ -185,6 +196,16 @@
       let filtered = allData.filter(item => {
         const itemLang = (item.language || 'English').toLowerCase();
         
+        // Category Routing Logic
+        let matchesCategory = true;
+        if (currentCategory === 'hollywood') {
+          matchesCategory = itemLang === 'english';
+        } else if (currentCategory === 'indian') {
+          matchesCategory = ['hindi', 'kannada', 'telugu', 'tamil', 'malayalam'].includes(itemLang);
+        } else if (currentCategory === 'anime') {
+          matchesCategory = itemLang === 'japanese';
+        }
+
         const matchesSearch = 
           item.title.toLowerCase().includes(searchQuery) ||
           (item.genre && item.genre.toLowerCase().includes(searchQuery)) ||
@@ -195,7 +216,7 @@
 
         const matchesLang = (selectedLang === 'all') || (itemLang === selectedLang);
 
-        return matchesSearch && matchesGenre && matchesLang;
+        return matchesSearch && matchesGenre && matchesLang && matchesCategory;
       });
 
       filtered.sort((a, b) => {
@@ -211,10 +232,35 @@
       renderList('web-series', filtered.filter(item => item.type === 'series'));
     }
 
+    // Tab Click Event
+    document.getElementById('category-tabs').addEventListener('click', (e) => {
+      if(e.target.classList.contains('tab-btn')) {
+        document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+        e.target.classList.add('active');
+        currentCategory = e.target.getAttribute('data-category');
+        applyFilters();
+      }
+    });
+
+    // Layout Toggle Event
+    document.getElementById('layout-toggle').addEventListener('click', (e) => {
+      isListView = !isListView;
+      e.target.innerText = isListView ? '🖼️ Grid View' : '📄 List View';
+      
+      const grids = document.querySelectorAll('.card-grid');
+      grids.forEach(grid => {
+        if (isListView) {
+          grid.classList.add('list-view');
+        } else {
+          grid.classList.remove('list-view');
+        }
+      });
+    });
+
     fetch('movies.json')
       .then(res => res.json())
       .then(data => {
-        // The Duplicate Catcher!
+        // The Duplicate Catcher is still here!
         const seen = new Set();
         allData = data.filter(item => {
           const key = `${item.title.toLowerCase().trim()}-${item.year}`;
