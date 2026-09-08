@@ -3,20 +3,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
- <title>🕷️ My Movie Vault</title>
+  <title>🕷️ My Movie Vault</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <header>
     <h1>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Spider-Man_face.svg" alt="Spider-Man Logo" style="vertical-align: middle; margin-right: 10px; width: 45px; margin-bottom: 5px;"> 
+      <img 
+        src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Spider-Man_face.svg" 
+        alt="Spider-Man Logo" 
+        style="vertical-align: middle; margin-right: 10px; width: 45px; margin-bottom: 5px;"
+      > 
       My Watchlist & Vault
     </h1>
     <p style="max-width: 650px; margin: 0 auto; line-height: 1.6; color: #94a3b8;">
       Hey fellow cinephiles! This is Shreerag, and these are some of the real masterclass movies and series which I've watched to date. Highly recommended! 🕸️
     </p>
   </header>
+
   <!-- Category Routing Tabs -->
   <div class="category-tabs" id="category-tabs">
     <button class="tab-btn active" data-category="all">All Entries</button>
@@ -116,7 +121,7 @@
       const card = document.createElement('div');
       card.className = 'movie-card';
 
-      // --- NEW: Make the card clickable for Google Search ---
+      // --- Make the card clickable for Google Search ---
       card.style.cursor = 'pointer'; 
       card.title = `Click to search for ${item.title}`; 
       card.addEventListener('click', () => {
@@ -124,7 +129,6 @@
         const googleUrl = `https://www.google.com/search?q=${encodeURIComponent(searchTerms)}`;
         window.open(googleUrl, '_blank'); 
       });
-      // --------------------------------------------------------
 
       const infoLine = item.seasons 
         ? `<p><strong>Seasons:</strong> ${item.seasons} (${item.year})</p>`
