@@ -1424,5 +1424,291 @@
     "rating": "⭐⭐⭐⭐⭐",
     "language": "Kannada",
     "genre": "Adventure / Drama"
+  },
+  {
+    "title": "Spirited Away",
+    "year": 2001,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "Japanese",
+    "genre": "Animation / Fantasy"
+  },
+  {
+    "title": "Black Panther",
+    "year": 2018,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "Death Note",
+    "year": 2006,
+    "seasons": "1 Season",
+    "type": "series",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "Japanese",
+    "genre": "Animation / Thriller"
+  },
+  {
+    "title": "Pokémon",
+    "year": 1997,
+    "seasons": "25 Seasons",
+    "type": "series",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "Japanese",
+    "genre": "Animation / Adventure",
+    "favorite": true
+  },
+  {
+    "title": "Pokémon: The First Movie - Mewtwo Strikes Back",
+    "year": 1998,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "Japanese",
+    "genre": "Animation / Adventure",
+    "favorite": true
+  },
+  {
+    "title": "Your Name.",
+    "year": 2016,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "Japanese",
+    "genre": "Animation / Romance"
+  },
+  {
+    "title": "A Silent Voice",
+    "year": 2016,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "Japanese",
+    "genre": "Animation / Drama"
+  },
+  {
+    "title": "What If...?",
+    "year": 2021,
+    "seasons": "2 Seasons",
+    "type": "series",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Sci-Fi"
+  },
+  {
+    "title": "Lucy",
+    "year": 2014,
+    "type": "movie",
+    "rating": "⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "The Mask",
+    "year": 1994,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Comedy / Fantasy"
+  },
+  {
+    "title": "La La Land",
+    "year": 2016,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Drama / Romance"
+  },
+  {
+    "title": "Love & Other Drugs",
+    "year": 2010,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Romance / Comedy"
+  },
+  {
+    "title": "Logan",
+    "year": 2017,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "Luca",
+    "year": 2021,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Family"
+  },
+  {
+    "title": "Men in Black",
+    "year": 1997,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "Mission: Impossible - Ghost Protocol",
+    "year": 2011,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Thriller"
+  },
+  {
+    "title": "Mission: Impossible - Rogue Nation",
+    "year": 2015,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Thriller"
+  },
+  {
+    "title": "Mission: Impossible - Fallout",
+    "year": 2018,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Thriller"
+  },
+  {
+    "title": "Mission: Impossible - Dead Reckoning Part One",
+    "year": 2023,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Thriller"
+  },
+  {
+    "title": "Mission: Impossible - The Final Reckoning",
+    "year": 2025,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Thriller"
+  },
+  {
+    "title": "Moana",
+    "year": 2016,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Animation / Adventure"
+  },
+  {
+    "title": "Man of Steel",
+    "year": 2013,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "The Maze Runner",
+    "year": 2014,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "Maze Runner: The Scorch Trials",
+    "year": 2015,
+    "type": "movie",
+    "rating": "⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "Maze Runner: The Death Cure",
+    "year": 2018,
+    "type": "movie",
+    "rating": "⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "The Matrix",
+    "year": 1999,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "The Matrix Reloaded",
+    "year": 2003,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "Morbius",
+    "year": 2022,
+    "type": "movie",
+    "rating": "⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "The Meg",
+    "year": 2018,
+    "type": "movie",
+    "rating": "⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "Mad Max: Fury Road",
+    "year": 2015,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "Furiosa: A Mad Max Saga",
+    "year": 2024,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Action / Sci-Fi"
+  },
+  {
+    "title": "M.S. Dhoni: The Untold Story",
+    "year": 2016,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "Hindi",
+    "genre": "Biography / Drama"
+  },
+  {
+    "title": "Goosebumps",
+    "year": 2015,
+    "type": "movie",
+    "rating": "⭐⭐⭐",
+    "language": "English",
+    "genre": "Adventure / Comedy"
+  },
+  {
+    "title": "Oppenheimer",
+    "year": 2023,
+    "type": "movie",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "English",
+    "genre": "Biography / Drama"
+  },
+  {
+    "title": "One Punch Man",
+    "year": 2015,
+    "seasons": "2 Seasons",
+    "type": "series",
+    "rating": "⭐⭐⭐⭐⭐",
+    "language": "Japanese",
+    "genre": "Animation / Action"
   }
 ]
